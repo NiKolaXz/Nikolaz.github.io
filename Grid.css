@@ -1,0 +1,26 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+}
+
+.grid-item{
+    background-color:blueviolet;
+    padding: 70px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.grid-item:hover{
+    background-color: rgb(255, 251, 0);
+}
+
+#parrafo1{
+    color:black;
+}
+.href{
+    color: rgb(255, 251, 0);
+}
