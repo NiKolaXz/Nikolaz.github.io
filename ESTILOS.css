@@ -17,3 +17,22 @@ color:blue;}
     padding: 20px;
     border: 5px dotted rgb(255, 0, 0);
 }
+
+@keyframes moveAndSkew {
+}
+
+@keyframes girar {
+    0% { transform: rotate (0deg); } 
+    50% { transform: rotate (180deg);}
+    100% { transform: rotate (360deg);}
+}
+
+@keyframes mover {
+    0% { transform: translateX(0px);}
+    50% { transform: translateX(100px);}
+    100% { transform: translateX(0px);}
+}
+
+div {
+    animation: girar 15s infinite linear;
+}

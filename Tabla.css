@@ -1,0 +1,32 @@
+
+ table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    color:rgb(255, 255, 255)
+
+}
+th, td {
+    padding: 12px;
+    border: 3px solid rgba(143, 210, 255, 0.479);
+    text-align: center;
+    border-radius: 10px;
+    flood-color: rgb(0, 0, 0);
+
+}
+th { 
+    background-color:rgb(144, 26, 255)
+}
+body { 
+    background-image:url('aaa.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: rgb(111, 34, 255)
+}
+.video-container {
+    position: center;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
