@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+    color: #ff0000;
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.1);
+    background-image: url('MEX.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    transition: transform 1.5s ease, box-shadow 0.3s ease;
+}
+
+
+body {
+    background-image: url('des.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    text-decoration: dotted;
+    text-wrap: normal;
+    text-box: 20px;
+
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    background-color: #f44336;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #d32f2f;
+}
